@@ -1,0 +1,4 @@
+interface:
+  display_name: "真实课程实验"
+  short_description: "适用于任意大学课程实验的真实执行、逐步截图、报告与演示"
+  default_prompt: "使用 $authentic-course-lab，严格按照实验指导书逐步真实完成实验，记录并截图每个关键步骤，编写详细报告并准备教师现场演示。"
