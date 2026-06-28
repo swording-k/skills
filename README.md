@@ -7,6 +7,7 @@
 | Skill | 简介 | 标签 |
 |---|---|---|
 | [authentic-course-lab](./skills/authentic-course-lab) | 大学课程实验助手：中英双语、可执行、可截屏 | `codex`, `claude`, `lab`, `course` |
+| [character-pet-director](./skills/character-pet-director) | 角色桌宠导演：先设计角色身份卡、9 行状态动作和 QA 规则，再配合 hatch-pet 生成 Codex 桌宠 | `codex`, `pet`, `character`, `hatch-pet` |
 
 ## 🚀 如何使用某个 skill
 
@@ -25,6 +26,8 @@ https://github.com/swording-k/skills/tree/main/skills/<skill-name>
 git clone --depth 1 --filter=blob:none --sparse https://github.com/swording-k/skills.git
 cd skills
 git sparse-checkout set skills/authentic-course-lab
+# 或：
+git sparse-checkout set skills/character-pet-director
 ```
 
 ### 方式 3：git clone + cp
@@ -32,6 +35,7 @@ git sparse-checkout set skills/authentic-course-lab
 ```bash
 git clone https://github.com/swording-k/skills.git
 cp -r skills/authentic-course-lab ~/.claude/skills/   # 或 ~/.codex/skills/
+cp -r skills/character-pet-director ~/.codex/skills/
 ```
 
 ## 📝 配置方式
